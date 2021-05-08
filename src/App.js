@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+//Componenetes
+import Header from "./components/Nav/Header"
+import Intro from './components/Intro/Intro'
+
+//css
 import './App.css';
+
+//Matrial UI
+import { ThemeProvider } from "@material-ui/styles";
+import theme from "./MaterialTheme/theme"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <ThemeProvider theme={theme}>
+      <Header />
+      <Intro />
+
+
+    </ThemeProvider>
+
   );
 }
 
