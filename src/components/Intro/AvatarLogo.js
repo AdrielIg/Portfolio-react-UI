@@ -1,6 +1,6 @@
 /* react */
-import avatar from '../../img/Avatar.jpeg'
-import picture from '../../img/selfie.jpeg'
+import avatar from '../../Assets/img/Avatar.jpeg'
+import picture from '../../Assets/img/selfie.jpeg'
 
 //Material ui
 import { Box } from '@material-ui/core'
