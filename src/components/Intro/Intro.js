@@ -7,11 +7,11 @@ import SocialMediaButtons from './SocialMediaButtons';
 
 
 const useStyles = makeStyles((theme) => ({
-  containerIntro: {
-    minHeight: '80vh',
+  introContainer: {
+    minHeight: '95vh',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   introTitle: {
     margin: '3rem 0 2rem 0',
@@ -28,11 +28,12 @@ const useStyles = makeStyles((theme) => ({
 const Intro = () => {
   const classes = useStyles()
   return (
-    <Box component='section' align='center' className={classes.containerIntro} display='flex'>
+    <Box component='section' align='center' className={classes.introContainer} display='flex'>
       <AvatarLogo />
       <Typography className={classes.introTitle} variant='h2' color='secondary' >Adriel Gomez</Typography>
       <Typography className={classes.introProfile} variant='h3' color='secondary' >| Front End Developer |</Typography>
       <SocialMediaButtons />
+      <Typography color='secondary'>Aniadir cosa para scrollear para abajo</Typography>
 
     </Box >
   )

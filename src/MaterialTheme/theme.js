@@ -6,7 +6,7 @@ const theme = createMuiTheme({
       main: "#F6F6F6"
     },
     secondary: {
-      main: "#F79E02"
+      main: "#D69D27"
     }
 
   },
@@ -27,6 +27,9 @@ const theme = createMuiTheme({
     },
     h5: {
       fontWeight: 500
+    },
+    p: {
+      fontSize: '5rem'
     }
 
   }

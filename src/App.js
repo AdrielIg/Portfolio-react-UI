@@ -1,6 +1,8 @@
 //Componenetes
 import Header from "./components/Nav/Header"
 import Intro from './components/Intro/Intro'
+import About from './components/About/About'
+import Portfolio from './components/Portfolio/Portfolio'
 
 //css
 import './App.css';
@@ -15,6 +17,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <Header />
       <Intro />
+      <About />
+      <Portfolio />
 
 
     </ThemeProvider>

@@ -7,6 +7,7 @@ import useMediaQuery from "@material-ui/core/useMediaQuery"
 import theme from '../../MaterialTheme/theme'
 import List from '@material-ui/core/List';
 import NavButtons from './NavButtons'
+import Container from '@material-ui/core/Container'
 import { makeStyles } from '@material-ui/core/styles';
 
 
@@ -37,32 +38,34 @@ const Bar = (props) => {
 
   return (
     <AppBar color='transparent' className={classes.navBar}>
-      <Toolbar>
-        <Typography id='home' variant="h1" noWrap color="secondary" className={props.classesh1} >
-          {start} Adriel Gomez {end}
-        </Typography>
+      <Container maxWidth='lg'>
+        <Toolbar>
+          <Typography id='home' variant="h1" noWrap color="secondary" className={props.classesh1} >
+            {start} Adriel Gomez {end}
+          </Typography>
 
-        {isMobile ? (
-          <IconButton
-            color="secondary"
-            aria-label="open drawer"
-            edge="end"
-            onClick={props.openHandlerNav}
-          >
-            <MenuIcon fontSize="large" />
-          </IconButton>
-        ) : (
-          <List className={classes.navLinks}>
-            {navBar.map(item => {
-              return (
-                <NavButtons key={item[0]} className={classes.navLink} name={item[0]} destiny={item[1]} />
+          {isMobile ? (
+            <IconButton
+              color="secondary"
+              aria-label="open drawer"
+              edge="end"
+              onClick={props.openHandlerNav}
+            >
+              <MenuIcon fontSize="large" />
+            </IconButton>
+          ) : (
+            <List className={classes.navLinks}>
+              {navBar.map(item => {
+                return (
+                  <NavButtons key={item[0]} className={classes.navLink} name={item[0]} destiny={item[1]} />
 
-              )
-            })}
-          </List>
-        )}
+                )
+              })}
+            </List>
+          )}
 
-      </Toolbar>
+        </Toolbar>
+      </Container>
     </AppBar>
   )
 }

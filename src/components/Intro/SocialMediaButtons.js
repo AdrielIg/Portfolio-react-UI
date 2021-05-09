@@ -15,10 +15,6 @@ const useStyles = makeStyles((theme) => ({
     '& > *': {
       margin: theme.spacing(4),
     },
-    introBtns: {
-      fontSize: "2rem",
-      margin: '0 8rem'
-    }
 
   },
 }));
@@ -29,15 +25,15 @@ export default function SocialMediaButtons() {
   return (
     <div className={classes.root}>
 
-      <ButtonGroup fontSize='medium' variant='contained' color='secondary'>
-        <IconButton href='https://www.linkedin.com/in/adriel-gomez/' target='__blank' color="primary" aria-label="add to shopping cart">
-          <LinkedInIcon className={classes.introBtns} color='secondary' fontSize='large' />
+      <ButtonGroup variant='contained' color='secondary'>
+        <IconButton href='https://www.linkedin.com/in/adriel-gomez/' rel='noreferrer' target='_blank' color="primary" aria-label="go to adriel gomez linkedin">
+          <LinkedInIcon color='primary' fontSize='large' />
         </IconButton>
-        <IconButton href='https://github.com/AdrielIg' target='__blank' color="primary" aria-label="add to shopping cart">
-          <GitHubIcon className={classes.introBtns} color='secondary' fontSize='large' />
+        <IconButton href='https://github.com/AdrielIg' target='_blank' rel='noreferrer' color="primary" aria-label=" go to adriel gomez github">
+          <GitHubIcon color='primary' fontSize='large' />
         </IconButton>
-        <IconButton href='https://www.instagram.com/adriiignacio/' target='__blank' color="primary" aria-label="add to shopping cart">
-          <InstagramIcon className={classes.introBtns} color='secondary' fontSize='large' />
+        <IconButton href='https://www.instagram.com/adriiignacio/' rel='noreferrer' target='_blank' color="primary" aria-label="go to adriel gomez instagram">
+          <InstagramIcon color='primary' fontSize='large' />
         </IconButton>
       </ButtonGroup>
     </div>
