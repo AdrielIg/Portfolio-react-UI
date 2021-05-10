@@ -17,14 +17,14 @@ import Button from '@material-ui/core/Button';
 const CardTop = (props) => {
   return (
     <>
-      <CardHeader titleTypographyProps={{ variant: 'h4', align: 'left', color: 'secondary', }}
-        title='Adro-chat'
+      <CardHeader titleTypographyProps={{ variant: 'h4', align: 'left', }}
+        title={props.title}
       />
       {/* ----------IMAGE-------------- */}
       <CardMedia
         className={props.classMedia}
         image={props.imgProject}
-        title="Adro-chat"
+        title={props.title}
       />
 
       {/* ----------CARD BUTTONS-------------- */}
@@ -34,6 +34,8 @@ const CardTop = (props) => {
           variant='contained'
           color='secondary'
           endIcon={<GitHubIcon />}
+          href={props.github}
+          target='_blank'
         >
           GitHub
         </Button>
@@ -43,6 +45,8 @@ const CardTop = (props) => {
           variant='contained'
           color='secondary'
           endIcon={<VisibilityIcon />}
+          href={props.live}
+          target='_blank'
         >
           See demo
         </Button>
