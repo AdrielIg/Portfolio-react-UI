@@ -3,6 +3,8 @@ import Header from "./components/Nav/Header"
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio'
+import Skills from './components/Skills/Skills'
+import Contact from './components/Contact/Contact'
 
 
 //css
@@ -22,6 +24,8 @@ function App() {
       <Intro />
       <About />
       <Portfolio />
+      <Skills />
+      <Contact />
     </ThemeProvider>
 
   );

@@ -17,7 +17,7 @@ const Portfolio = () => {
   const classes = useStyles();
 
   return (
-    <Container maxWidth='md' className={classes.portfolioContainer} component='section' variant='section' align='center'>
+    <Container id='portfolio' maxWidth='md' className={classes.portfolioContainer} component='section' variant='section' align='center'>
       <Typography className={classes.portfolioTitle} variant='h3' component='h3' color='secondary'>
         Portfolio
       </Typography>
