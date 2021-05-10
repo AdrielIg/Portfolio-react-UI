@@ -19,13 +19,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SocialMediaButtons() {
+export default function SocialMediaButtons(props) {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
 
-      <ButtonGroup variant='contained' color='secondary'>
+      <ButtonGroup variant={props.variant} color='secondary'>
         <IconButton href='https://www.linkedin.com/in/adriel-gomez/' rel='noreferrer' target='_blank' color="primary" aria-label="go to adriel gomez linkedin">
           <LinkedInIcon color='primary' fontSize='large' />
         </IconButton>

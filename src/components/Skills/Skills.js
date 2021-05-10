@@ -13,7 +13,8 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles(() => ({
   skillsContainer: {
 
-    marginTop: '8rem'
+    marginTop: '8rem',
+
 
   },
   skillsTitle: {

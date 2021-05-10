@@ -10,7 +10,8 @@ import Slide from '@material-ui/core/Slide';
 
 const useStyles = makeStyles(() => ({
   contactContainer: {
-    marginTop: '5rem',
+    marginTop: '8rem',
+    marginBottom: '8rem',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center'

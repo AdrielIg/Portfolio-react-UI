@@ -32,7 +32,7 @@ const Intro = () => {
       <AvatarLogo />
       <Typography className={classes.introTitle} variant='h2' color='secondary' >Adriel Gomez</Typography>
       <Typography className={classes.introProfile} variant='h3' color='secondary' >| Front End Developer |</Typography>
-      <SocialMediaButtons />
+      <SocialMediaButtons variant='contained' />
       <Typography color='secondary'>Aniadir cosa para scrollear para abajo</Typography>
 
     </Box >
