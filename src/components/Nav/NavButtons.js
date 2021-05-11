@@ -31,7 +31,7 @@ const NavButtons = (props) => {
 
   return (
     <>
-      <ListItem className={classes.navLink} button component="a" href={props.destiny} key={props.name}>
+      <ListItem onClick={props.onClickBtn} className={classes.navLink} button component="a" href={props.destiny} key={props.name}>
         {isMobile ? (
           <ListItemIcon ><ArrowForwardIosIcon color='secondary' /></ListItemIcon>
         ) : null}

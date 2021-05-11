@@ -11,6 +11,12 @@ const theme = createMuiTheme({
 
   },
   typography: {
+    fontFamily: [
+
+      'Montserrat', 'Roboto', 'sans-serif'
+    ].join(','),
+
+
     h1: {
       fontSize: "2.2rem",
       fontWeight: 700

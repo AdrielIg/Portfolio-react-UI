@@ -79,7 +79,7 @@ export default function CardProject(props) {
         classExpand={classes.expand}
         classExpandOpen={classes.expandOpen}
         classBackBtn={classes.backBtn}
-        stateExpand={expanded}
+        stateExpanded={expanded}
         onHandleExpandClick={handleExpandClick}
       />
       {/* ----------EXPANSIVE CONTENT-------------- */}

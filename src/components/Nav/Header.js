@@ -110,7 +110,7 @@ export default function Header() {
         <List>
           {navBar.map(item => {
             return (
-              <NavButtons key={item[0]} name={item[0]} destiny={item[1]} />
+              <NavButtons onClickBtn={handleDrawerClose} key={item[0]} name={item[0]} destiny={item[1]} />
 
             )
           })}

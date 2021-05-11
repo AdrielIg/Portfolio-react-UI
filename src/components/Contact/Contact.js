@@ -11,7 +11,7 @@ import Slide from '@material-ui/core/Slide';
 
 const useStyles = makeStyles(() => ({
   contactContainer: {
-    marginTop: '8rem',
+    marginTop: '9rem',
     marginBottom: '8rem',
     display: 'flex',
     flexDirection: 'column',
@@ -25,7 +25,9 @@ const useStyles = makeStyles(() => ({
     color: '#F6F6F6',
     fontSize: '1.6rem',
     marginTop: '2rem',
-    width: '235px'
+    width: '260px',
+    cursor: 'pointer',
+
   },
 
 }))

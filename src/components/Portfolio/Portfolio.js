@@ -6,6 +6,7 @@ import ProjectCenter from './ProjectCenter';
 const useStyles = makeStyles(() => ({
   portfolioContainer: {
     minHeight: '60vh',
+    marginTop: '6rem'
 
   },
   portfolioTitle: {
