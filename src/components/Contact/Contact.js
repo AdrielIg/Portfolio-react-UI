@@ -59,7 +59,7 @@ const Contact = () => {
       open: true,
       Transition,
     });
-    console.log(Transition)
+
 
   };
 

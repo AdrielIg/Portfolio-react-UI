@@ -1,8 +1,6 @@
 import React from 'react';
 
 //Componentes
-import reactIcon from '../../Assets/Icons/react.svg'
-
 import CardTop from './Card/CardTop'
 
 
@@ -68,7 +66,7 @@ export default function CardProject(props) {
   };
 
   return (
-    <Card className={classes.cardTitle} align='center'>
+    <Card key={props.id} className={classes.cardTitle} align='center'>
       <CardTop
         title={props.title}
         imgProject={props.imgProject}
@@ -90,6 +88,7 @@ export default function CardProject(props) {
             {props.desc}
           </Typography>
           <Box component='div'>
+
             <img src={props.icon1} />
             <img className={classes.cardDescIcons} src={props.icon2} />
             <img src={props.icon3} />

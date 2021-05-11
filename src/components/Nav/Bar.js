@@ -29,7 +29,7 @@ const Bar = (props) => {
   const classes = useStyles();
   const [start, end] = ["<", "/ >"]
   const navBar = [["Home", "#home"], ["About", "#about"], ["Portfolio", "#portfolio"], ["Skills", "#skills"]]
-  console.log(props)
+
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"))
 
   const closeNav = !isMobile ? props.closeHandlerNav(false) : null;

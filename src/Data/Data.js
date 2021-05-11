@@ -33,7 +33,7 @@ const projects = [
     github: 'https://github.com/AdrielIg/Anime-directory-React',
     live: 'https://anime-directory.netlify.app/',
     imgProject: animeFinder,
-    description: 'Anime search engine using MyAnimeList API, it is a SPA using wouter a library like react-router. You can find any anime and see things like the description, episodes, ratin, etc',
+    description: 'Anime search engine using MyAnimeList API, it is a SPA using wouter a library like react-router. You can find any anime and see things like the description, episodes, rating, etc',
     id: 2,
     tecnologias: {
       icon1: reactIcon,
@@ -55,7 +55,7 @@ const projects = [
   {
     title: 'Ex-Portfolio',
     github: 'https://github.com/AdrielIg/Portfolio',
-    live: 'https://adrielgomez.netlify.app/',
+    live: 'https://adrielgomezexportfolio.netlify.app/',
     imgProject: exPortfolio,
     description: 'My ex portolio that I decided to improve by making this one. Designed by myself.',
     id: 4,
@@ -81,7 +81,7 @@ const projects = [
     github: 'https://github.com/AdrielIg/Adro-chat',
     live: 'https://adro-chat.netlify.app/?',
     imgProject: adroChat,
-    description: 'A simple chat using firebase to store the messages, using session storage to get the user and display the messages with react. If you log in without a name, your messages will display like anonymous',
+    description: 'A simple chat using firebase to store the messages, using session storage to get the user and display the messages with react. If you log in without a name, your messages will display like anonymous. To test it alone open it in two tabs and chat with yourself ;)',
     id: 6,
     tecnologias: {
       icon1: reactIcon,

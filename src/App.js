@@ -7,8 +7,6 @@ import Skills from './components/Skills/Skills'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
-
-
 //css
 import './App.css';
 
@@ -16,7 +14,6 @@ import './App.css';
 import { ThemeProvider } from "@material-ui/styles";
 import theme from "./MaterialTheme/theme"
 
-const img = './img/Project2.png'
 
 function App() {
   return (
