@@ -3,8 +3,9 @@ import headQuality from '../Assets/img/Project1.png'
 import animeFinder from '../Assets/img/Project2.png'
 import webDevArg from '../Assets/img/Project3.png'
 import elenaJoy from '../Assets/img/Project4.png'
-import portfolio from '../Assets/img/Project5.png'
+import exPortfolio from '../Assets/img/Project5.png'
 import adroChat from '../Assets/img/Project6.png'
+import portolio from '../Assets/img/Project7.png'
 //Icons tecnologies
 import reactIcon from '../Assets/Icons/react.svg'
 import materialIcon from '../Assets/Icons/material.svg'
@@ -32,7 +33,7 @@ const projects = [
     github: 'https://github.com/AdrielIg/Anime-directory-React',
     live: 'https://anime-directory.netlify.app/',
     imgProject: animeFinder,
-    description: 'Anime search engine using MyAnimeList API, it is a SPA using wouter a library like react-router',
+    description: 'Anime search engine using MyAnimeList API, it is a SPA using wouter a library like react-router. You can find any anime and see things like the description, episodes, ratin, etc',
     id: 2,
     tecnologias: {
       icon1: reactIcon,
@@ -44,7 +45,7 @@ const projects = [
     github: 'https://github.com/AdrielIg/WebDevArg',
     live: 'https://webdevarg.netlify.app/',
     imgProject: webDevArg,
-    description: 'Web Dev Arg is a page where development and design of web pages are sold',
+    description: 'Web Dev Arg is a page where development and design of web pages are sold, I did this to practice my design and css skills ',
     id: 3,
     tecnologias: {
       icon1: htmlIcon,
@@ -55,8 +56,8 @@ const projects = [
     title: 'Ex-Portfolio',
     github: 'https://github.com/AdrielIg/Portfolio',
     live: 'https://adrielgomez.netlify.app/',
-    imgProject: portfolio,
-    description: 'My ex portolio that I decided to improve by making this one.',
+    imgProject: exPortfolio,
+    description: 'My ex portolio that I decided to improve by making this one. Designed by myself.',
     id: 4,
     tecnologias: {
       icon1: htmlIcon,
@@ -68,7 +69,7 @@ const projects = [
     github: 'https://github.com/AdrielIg/ElenaJoy',
     live: 'https://elenajoyport.netlify.app/',
     imgProject: elenaJoy,
-    description: 'A demo page about a photographer',
+    description: 'A demo page about a photographer, where I used some animations , grid to implement the gallery section and a contact form',
     id: 5,
     tecnologias: {
       icon2: htmlIcon,
@@ -80,7 +81,7 @@ const projects = [
     github: 'https://github.com/AdrielIg/Adro-chat',
     live: 'https://adro-chat.netlify.app/?',
     imgProject: adroChat,
-    description: 'A simple chat using firebase to store the messages and display them with react',
+    description: 'A simple chat using firebase to store the messages, using session storage to get the user and display the messages with react. If you log in without a name, your messages will display like anonymous',
     id: 6,
     tecnologias: {
       icon1: reactIcon,
@@ -91,9 +92,9 @@ const projects = [
   {
     title: 'Portfolio',
     github: 'https://github.com/AdrielIg/Portfolio-react-UI',
-    live: 'https://adro-chat.netlify.app/?',
-    imgProject: adroChat,
-    description: 'My current portfolio made with react and material-ui',
+    live: 'https://adrielgomez.netlify.app/?',
+    imgProject: portolio,
+    description: 'My current portfolio made with react and material-ui components.',
     id: 7,
     tecnologias: {
       icon1: reactIcon,

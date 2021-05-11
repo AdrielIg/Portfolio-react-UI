@@ -1,14 +1,19 @@
-//Componenetes
+//Components
+import SocialMediaButtons from './SocialMediaButtons';
 import AvatarLogo from './AvatarLogo'
-import { Box } from '@material-ui/core'
+//Material UI
+
+import { Container } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
-import SocialMediaButtons from './SocialMediaButtons';
+import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
+
 
 
 const useStyles = makeStyles((theme) => ({
   introContainer: {
     minHeight: '95vh',
+    display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center'
@@ -25,17 +30,20 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
+
+
+
+
 const Intro = () => {
   const classes = useStyles()
   return (
-    <Box component='section' align='center' className={classes.introContainer} display='flex'>
+    <Container component='section' align='center' className={classes.introContainer} >
       <AvatarLogo />
       <Typography className={classes.introTitle} variant='h2' color='secondary' >Adriel Gomez</Typography>
       <Typography className={classes.introProfile} variant='h3' color='secondary' >| Front End Developer |</Typography>
       <SocialMediaButtons variant='contained' />
-      <Typography color='secondary'>Aniadir cosa para scrollear para abajo</Typography>
-
-    </Box >
+      <ArrowDownwardIcon className='bouncer' color='secondary' fontSize='large' />
+    </Container >
   )
 }
 

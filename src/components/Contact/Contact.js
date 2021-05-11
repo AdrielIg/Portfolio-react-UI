@@ -8,6 +8,7 @@ import Snackbar from '@material-ui/core/Snackbar';
 import Fade from '@material-ui/core/Fade';
 import Slide from '@material-ui/core/Slide';
 
+
 const useStyles = makeStyles(() => ({
   contactContainer: {
     marginTop: '8rem',
@@ -25,7 +26,8 @@ const useStyles = makeStyles(() => ({
     fontSize: '1.6rem',
     marginTop: '2rem',
     width: '235px'
-  }
+  },
+
 }))
 
 const Contact = () => {
@@ -101,6 +103,7 @@ const Contact = () => {
         message="Mail copied!!!"
         key={state.Transition.name}
       />
+
     </Container>
   )
 }

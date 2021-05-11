@@ -16,6 +16,7 @@ const useStyles = makeStyles(() => ({
   listSkill: {
     margin: '.5rem 0'
   },
+
   divisor: {
     backgroundColor: 'white',
     marginTop: '.4rem'

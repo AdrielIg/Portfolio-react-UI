@@ -20,7 +20,8 @@ const useStyles = makeStyles(() => ({
   },
   navBar: {
     position: 'static'
-  }
+  },
+
 
 }))
 
