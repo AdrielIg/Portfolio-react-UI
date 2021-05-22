@@ -20,11 +20,13 @@ function App() {
 
     <ThemeProvider theme={theme}>
       <Header />
-      <Intro />
-      <About />
-      <Portfolio />
-      <Skills />
-      <Contact />
+      <main>
+        <Intro />
+        <About />
+        <Portfolio />
+        <Skills />
+        <Contact />
+      </main>
       <Footer />
     </ThemeProvider>
 

@@ -23,6 +23,7 @@ const CardTop = (props) => {
       <CardMedia
         className={props.classMedia}
         image={props.imgProject}
+
         title={props.title}
       />
 

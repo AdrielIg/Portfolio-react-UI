@@ -89,8 +89,8 @@ export default function CardProject(props) {
           </Typography>
           <Box component='div'>
 
-            <img src={props.icon1} />
-            <img className={classes.cardDescIcons} src={props.icon2} />
+            <img src={props.icon1} alt='tecnology used in this project' />
+            <img className={classes.cardDescIcons} src={props.icon2} alt='tecnology used in this project' />
             <img src={props.icon3} />
 
           </Box>
