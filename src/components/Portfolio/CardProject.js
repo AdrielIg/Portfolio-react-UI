@@ -16,10 +16,10 @@ import Box from '@material-ui/core/Box'
 
 const useStyles = makeStyles((theme) => ({
   media: {
-    height: 0,
+    height: 60,
     width: '98%',
     paddingTop: '70.9%', // 16:9
-    backgroundColor: '#969696'
+    /* backgroundColor: '#969696' */
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -66,7 +66,7 @@ export default function CardProject(props) {
   };
 
   return (
-    <Card key={props.id} className={classes.cardTitle} align='center'>
+    <Card className={classes.cardTitle} align='center'>
       <CardTop
         title={props.title}
         imgProject={props.imgProject}
