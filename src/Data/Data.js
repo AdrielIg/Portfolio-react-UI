@@ -13,6 +13,7 @@ import firebaseIcon from '../Assets/Icons/firebase.svg'
 import cssIcon from '../Assets/Icons/css.svg'
 import sassIcon from '../Assets/Icons/sass.svg'
 import htmlIcon from '../Assets/Icons/html.svg'
+import javascriptIcon from '../Assets/Icons/javascript.svg'
 
 
 const projects = [
@@ -26,6 +27,7 @@ const projects = [
     tecnologias: {
       icon1: htmlIcon,
       icon2: cssIcon,
+      icon3: javascriptIcon,
     }
   },
   {
@@ -50,6 +52,7 @@ const projects = [
     tecnologias: {
       icon1: htmlIcon,
       icon2: cssIcon,
+      icon3: javascriptIcon,
     }
   },
   {
@@ -62,6 +65,7 @@ const projects = [
     tecnologias: {
       icon1: htmlIcon,
       icon2: sassIcon,
+      icon3: javascriptIcon,
     }
   },
   {
@@ -74,6 +78,7 @@ const projects = [
     tecnologias: {
       icon2: htmlIcon,
       icon1: cssIcon,
+      icon3: javascriptIcon,
     }
   },
   {
