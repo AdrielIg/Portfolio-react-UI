@@ -21,8 +21,6 @@ const useStyles = makeStyles(() => ({
     justifyContent: 'center',
     alignItems: 'center',
 
-
-
   },
   introTitle: {
     margin: '3rem 0 2rem 0',
@@ -53,7 +51,7 @@ const useStyles = makeStyles(() => ({
 const Intro = () => {
   const classes = useStyles()
   const tiltRef = useRef()
-  const tiltChildrenRef = useRef()
+
   useEffect(() => {
     const tiltNode = tiltRef.current
 
@@ -61,11 +59,9 @@ const Intro = () => {
     const vanillaTiltOption = {
       max: 20,
       speed: 10,
-      glare: true,
       gyroscope: true,
-      'max-glare': 0.2,
       transition: true,
-      reverse: true
+      reverse: true,
 
     }
 
@@ -75,14 +71,24 @@ const Intro = () => {
   })
 
   return (
-    <Container component='section' align='center' className={classes.introContainer} >
-      <Box ref={tiltRef} component='div' className={classes.containerIntroBox}>
-        <AvatarLogo />
-        <Typography className={classes.introTitle} variant='h2' color='secondary' >Adriel Gomez</Typography>
-        <Typography className={classes.introProfile} variant='h3' color='secondary' >| Front End Developer |</Typography>
-        <SocialMediaButtons variant='contained' />
-        <ArrowDownwardIcon className='bouncer' color='secondary' fontSize='large' />
-      </Box>
+    <Container ref={tiltRef} component='section' align='center' className={classes.introContainer} >
+
+      <AvatarLogo />
+      <Typography
+        className={classes.introTitle}
+        variant='h2'
+        color='secondary' >
+        Adriel Gomez
+      </Typography>
+      <Typography
+        className={classes.introProfile}
+        variant='h3'
+        color='secondary' >
+        | Front End Developer |
+      </Typography>
+      <SocialMediaButtons variant='contained' />
+      <ArrowDownwardIcon className='bouncer' color='secondary' fontSize='large' />
+
     </Container >
   )
 }
