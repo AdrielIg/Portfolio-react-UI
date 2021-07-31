@@ -11,10 +11,16 @@ import List from '@material-ui/core/List'
 
 const useStyles = makeStyles(() => ({
   listSkills: {
-    marginTop: '1.5rem'
+    marginTop: '1.5rem',
+
   },
   listSkill: {
-    margin: '.5rem 0'
+    margin: '.5rem 0',
+    fontSize: '1.6rem'
+
+  },
+  skillText: {
+    fontSize: '2rem'
   },
 
   divisor: {
@@ -38,7 +44,7 @@ const SkillList = (props) => {
       <Box className={classes.listSkills}>
         <List component='ul'>
           <li>
-            <Typography component='p' color='primary'>{props.tec1}</Typography>
+            <Typography className={classes.listSkill} component='p' color='primary'>{props.tec1}</Typography>
           </li>
           <li>
             <Typography className={classes.listSkill} component='p' color='primary'>{props.tec2}</Typography>
@@ -47,7 +53,7 @@ const SkillList = (props) => {
             <Typography className={classes.listSkill} component='p' color='primary'>{props.tec3}</Typography
             ></li>
           <li>
-            <Typography component='p' color='primary'>{props.tec4}</Typography>
+            <Typography className={classes.listSkill} component='p' color='primary'>{props.tec4}</Typography>
           </li>
         </List>
 

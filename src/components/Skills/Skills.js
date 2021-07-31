@@ -23,9 +23,8 @@ const useStyles = makeStyles(() => ({
   skillsWrapper: {
     display: 'flex',
     justifyContent: 'space-around',
-    alignItems: 'center',
-    marginTop: '5rem'
-
+    alignItems: 'start',
+    marginTop: '5rem',
   },
 
 }))
@@ -48,6 +47,14 @@ const Skills = () => {
           tec2='CSS (SASS)'
           tec3='Javascript'
           tec4='React'
+        />
+        <SkillList
+
+          text='Back End'
+          tec1='Node'
+          tec2='Express'
+          tec3='MongoDB'
+
         />
         <SkillList
 
