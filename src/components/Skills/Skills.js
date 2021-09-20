@@ -54,6 +54,7 @@ const Skills = () => {
           tec1='Node'
           tec2='Express'
           tec3='MongoDB'
+          tec4='MySQL'
 
         />
         <SkillList

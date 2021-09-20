@@ -31,9 +31,6 @@ export default function SocialMediaButtons(props) {
         <IconButton href='https://github.com/AdrielIg' target='_blank' rel='noreferrer' color="primary" aria-label=" go to adriel gomez github">
           <GitHubIcon color='primary' fontSize='large' />
         </IconButton>
-        <IconButton href='https://www.instagram.com/adriiignacio/' rel='noreferrer' target='_blank' color="primary" aria-label="go to adriel gomez instagram">
-          <InstagramIcon color='primary' fontSize='large' />
-        </IconButton>
       </ButtonGroup>
     </div>
   );
