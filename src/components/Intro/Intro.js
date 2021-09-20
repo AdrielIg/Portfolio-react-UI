@@ -54,20 +54,14 @@ const Intro = () => {
 
   useEffect(() => {
     const tiltNode = tiltRef.current
-
-    console.log(tiltNode)
     const vanillaTiltOption = {
       max: 20,
       speed: 10,
       gyroscope: true,
       transition: true,
       reverse: true,
-
     }
-
     VanillaTilt.init(tiltNode, vanillaTiltOption)
-
-
   })
 
   return (
