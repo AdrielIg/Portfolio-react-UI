@@ -3,15 +3,16 @@ import headQuality from '../Assets/img/Project1.png'
 import animeFinder from '../Assets/img/Project2.png'
 import webDevArg from '../Assets/img/Project3.png'
 import elenaJoy from '../Assets/img/Project4.png'
-import exPortfolio from '../Assets/img/Project5.png'
+// import exPortfolio from '../Assets/img/Project5.png'
 import adroChat from '../Assets/img/Project6.png'
 import portolio from '../Assets/img/Project7.png'
+import reactMeals from '../Assets/img/Project8.png'
 //Icons tecnologies
 import reactIcon from '../Assets/Icons/react.svg'
 import materialIcon from '../Assets/Icons/material.svg'
 import firebaseIcon from '../Assets/Icons/firebase.svg'
 import cssIcon from '../Assets/Icons/css.svg'
-import sassIcon from '../Assets/Icons/sass.svg'
+// import sassIcon from '../Assets/Icons/sass.svg'
 import htmlIcon from '../Assets/Icons/html.svg'
 import javascriptIcon from '../Assets/Icons/javascript.svg'
 
@@ -55,7 +56,7 @@ const projects = [
       icon3: javascriptIcon,
     }
   },
-  {
+  /* {
     title: 'Ex-Portfolio',
     github: 'https://github.com/AdrielIg/Portfolio',
     live: 'https://adrielgomezexportfolio.netlify.app/',
@@ -67,7 +68,7 @@ const projects = [
       icon2: sassIcon,
       icon3: javascriptIcon,
     }
-  },
+  }, */
   {
     title: 'Elena Joy',
     github: 'https://github.com/AdrielIg/ElenaJoy',
@@ -104,6 +105,17 @@ const projects = [
     tecnologias: {
       icon1: reactIcon,
       icon2: materialIcon
+    }
+  }, {
+    title: 'React Meals',
+    github: 'https://github.com/AdrielIg/ReactMeals',
+    live: 'https://meals-react.netlify.app/',
+    imgProject: reactMeals,
+    description: 'A simple web app where you can add food to the cart. It´s made with react using reducer and context  ',
+    id: 8,
+    tecnologias: {
+      icon1: reactIcon,
+      icon2: cssIcon,
     }
   },
 ]

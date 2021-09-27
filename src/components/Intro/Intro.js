@@ -4,7 +4,7 @@ import SocialMediaButtons from './SocialMediaButtons';
 import AvatarLogo from './AvatarLogo'
 //Material UI
 
-import { Container, Box } from '@material-ui/core'
+import { Container } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
