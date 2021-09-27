@@ -9,6 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import VanillaTilt from 'vanilla-tilt';
+import { DownloadCV } from './DownloadCV';
 
 
 
@@ -80,6 +81,7 @@ const Intro = () => {
         color='secondary' >
         | Front End Developer |
       </Typography>
+      <DownloadCV />
       <SocialMediaButtons variant='contained' />
       <ArrowDownwardIcon className='bouncer' color='secondary' fontSize='large' />
 

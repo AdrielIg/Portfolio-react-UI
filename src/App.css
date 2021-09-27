@@ -22,6 +22,19 @@ ul {
   margin-top: 2rem;
   animation: bounce 2s linear infinite;
 }
+.download-cv {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 0.8rem 0.8rem;
+  border-radius: 15px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: 4px solid #d69d27;
+}
+
+.download-cv:hover {
+  transform: scale(1.1);
+}
 
 @keyframes bounce {
   from,
